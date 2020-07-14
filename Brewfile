@@ -28,6 +28,7 @@ brew 'yarn'
 # Apps
 cask 'alfred'
 cask 'docker'
+cask 'dropbox'
 cask 'firefox'
 cask 'flux'
 cask 'github'
