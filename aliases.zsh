@@ -4,6 +4,10 @@
 # alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
+alias e="code ."
+alias f="open ."
+alias zl="source ~/.zshrc"
+alias zo="code ~/.zshrc"
 
 
 # Docker
