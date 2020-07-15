@@ -25,6 +25,10 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 
 # Disable the sound effects on boot
 # sudo nvram SystemAudioVolume=" "
+# sudo nvram SystemAudioVolume=%80
+
+# Set the Time/Date format and show seconds
+defaults write com.apple.menuextra.clock DateFormat -string "EEE h:mm:ss"
 
 # Disable transparency in the menu bar and elsewhere on Yosemite
 # defaults write com.apple.universalaccess reduceTransparency -bool true
@@ -150,14 +154,15 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
 # Disable press-and-hold for keys in favor of key repeat
-# defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
-# Set trackpad speed to `fast`
-defaults write -g com.apple.trackpad.scaling 3
+# Set trackpad speed to slighter faster than highest `fast`
+defaults write -g com.apple.trackpad.scaling 4
+
 
 # Set language and text formats
 # Note: if you’re in the US, replace `EUR` with `USD`, `Centimeters` with
@@ -410,8 +415,8 @@ defaults write com.apple.dock static-only -bool true
 
 # Remove the auto-hiding Dock delay
 # defaults write com.apple.dock autohide-delay -float 0
-# Remove the animation when hiding/showing the Dock
-# defaults write com.apple.dock autohide-time-modifier -float 0
+# Speed up the animation when hiding/showing the Dock
+defaults write com.apple.dock autohide-time-modifier -float 0.4
 
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
@@ -420,7 +425,7 @@ defaults write com.apple.dock autohide -bool true
 # defaults write com.apple.dock showhidden -bool true
 
 # Don’t show recent applications in Dock
-# defaults write com.apple.dock show-recents -bool false
+defaults write com.apple.dock show-recents -bool false
 
 # Disable the Launchpad gesture (pinch with thumb and three fingers)
 #defaults write com.apple.dock showLaunchpadGestureEnabled -int 0
