@@ -18,10 +18,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "MacBook-P1 Adam"
-sudo scutil --set HostName "MacBook-P1 Adam"
-sudo scutil --set LocalHostName "MacBook-P1 Adam"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "MacBook-P1 Adam"
+sudo scutil --set ComputerName "adam-macbook-1"
+sudo scutil --set HostName "adam-macbook-1"
+sudo scutil --set LocalHostName "adam-macbook-1"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "adam-macbook-1"
 
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
@@ -156,6 +156,9 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
+# Set trackpad speed to `fast`
+defaults write -g com.apple.trackpad.scaling 3
+
 # Set language and text formats
 # Note: if you’re in the US, replace `EUR` with `USD`, `Centimeters` with
 # `Inches`, `en_GB` with `en_US`, and `true` with `false`.
@@ -266,7 +269,7 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Finder: show all filename extensions
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+defaults write NSGlobalDomain AppleShowAllExtensions -bool false
 
 # Finder: show status bar
 # defaults write com.apple.finder ShowStatusBar -bool true
