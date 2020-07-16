@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "d292e40492ebbf83687387ce1b3fac44ab51910b"
+        "revision": "9e6cc5f933e09a2ba36db7338b5e82411194b09f"
       },
       "homebrew/cask-eid": {
         "revision": "4d4470de1ce7f5a2f14bc95f0a9c223d6d8df472"
       },
       "homebrew/cask-fonts": {
-        "revision": "70b06df1704d77baca7c43e4d5446df1c23d52a3"
+        "revision": "54b3f7814431dfd39f6d396ff298ce173e082187"
       },
       "homebrew/cask-versions": {
-        "revision": "dec33543ef51376f432b2a3955bb15751012c3ac"
+        "revision": "1a708065302ad22420f46461d3004bd0f44ca6e1"
       },
       "homebrew/bundle": {
-        "revision": "f760551841012ee20c90f2afd336c15423b23479"
+        "revision": "3c72d9cb23fb868781f2a8fe5e243def2b23f085"
       }
     },
     "brew": {
@@ -341,6 +341,11 @@
       "yarn": {
         "version": "1.22.4",
         "bottle": false
+      },
+      "svn": null,
+      "zsh-autosuggestions": {
+        "version": "0.6.4",
+        "bottle": false
       }
     },
     "cask": {
@@ -435,7 +440,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.47.0",
+        "version": "1.47.1",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -547,18 +552,24 @@
         "options": {
           "full_name": "font-source-serif-pro"
         }
+      },
+      "vlc": {
+        "version": "3.0.11",
+        "options": {
+          "full_name": "vlc"
+        }
       }
     }
   },
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.6",
+        "HOMEBREW_VERSION": "2.4.7",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "23eb06f2aeb95f2f0912bad5de2479ae02249f14",
+        "Homebrew/homebrew-core": "489d00fe69dec41ec70d4faaa16b57dda996dbb9",
         "CLT": "11.5.0.0.1.1588476445",
-        "Xcode": "11.5",
-        "macOS": "10.15.5"
+        "Xcode": "11.6",
+        "macOS": "10.15.6"
       }
     }
   }
