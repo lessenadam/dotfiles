@@ -5,7 +5,7 @@
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
 alias e="code ."
-alias f="open ."
+alias o="open ."
 alias zl="source ~/.zshrc"
 alias zo="code ~/.zshrc"
 
@@ -36,3 +36,13 @@ alias gl="git log --oneline --decorate --color"
 # alias stash="git stash -u"
 # alias unstage="git restore --staged ."
 # alias wip="commit wip"
+
+# Funcitons
+
+# File search functions
+# TODO: investigate how to use...
+function f() { find . -iname "*$1*" ${@:2} }
+function r() { grep "$1" ${@:2} -R . }
+
+# Create a folder and move into it in one command
+function mkcd() { mkdir -p "$@" && cd "$_"; }

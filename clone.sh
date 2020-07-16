@@ -1,8 +1,8 @@
 #!/bin/sh
 
-echo "Cloning repositories... (not implemented yet)"
+echo "Cloning repositories..."
 
-# SITES=$HOME/Sites
-
+# oh-my-zsh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # Personal

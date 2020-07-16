@@ -9,6 +9,7 @@ tap 'homebrew/bundle'
 brew 'autojump'
 brew 'bash' # Latest Bash version
 brew 'bat' # "cat" on steroids
+brew 'cowsay' # Some fun here and there
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
 brew 'gnupg2'
@@ -22,6 +23,7 @@ brew 'svn'
 brew 'trash' # Manage the Trash bin, TODO: figure out how to use
 brew 'tree' # List directories in a tree structure, TODO: figure out how to use
 brew 'zsh-autosuggestions'
+brew 'zsh-syntax-highlighting'
 
 # Development
 brew 'nginx'
@@ -70,5 +72,5 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-# mas 'Keynote', id: 409183694
-# mas 'Numbers', id: 409203825
+mas 'Keynote', id: 409183694
+mas 'Numbers', id: 409203825

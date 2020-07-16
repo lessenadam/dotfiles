@@ -559,6 +559,13 @@
           "full_name": "vlc"
         }
       }
+    },
+    "mas": {
+      "Keynote": {
+        "id": "409183694",
+        "version": "10.1"
+      },
+      "Numbers": null
     }
   },
   "system": {
