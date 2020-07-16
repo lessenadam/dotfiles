@@ -21,7 +21,7 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20t
 brew 'svn'
 brew 'trash' # Manage the Trash bin, TODO: figure out how to use
 brew 'tree' # List directories in a tree structure, TODO: figure out how to use
-brew 'zsh-autosuggestions' 
+brew 'zsh-autosuggestions'
 
 # Development
 brew 'nginx'
@@ -45,6 +45,7 @@ cask 'slack'
 cask 'spectacle'
 cask 'spotify'
 cask 'visual-studio-code'
+cask 'vlc'
 cask 'whatsapp'
 cask 'zoomus'
 
@@ -54,11 +55,10 @@ cask 'qlmarkdown'
 cask 'quicklook-json'
 cask 'quicklook-csv'
 cask 'qlstephen'
-cask 'qlimagesize' 
+cask 'qlimagesize'
 cask 'suspicious-package'
-cask 'quicklookase' 
+cask 'quicklookase'
 cask 'qlvideo'
-
 
 # Fonts
 cask 'font-lato'
