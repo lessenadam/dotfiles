@@ -25,4 +25,4 @@ This includes setting the dark setting https://github.com/mauricecruz/chrome-dev
 - Screen Resolution
 - Caps lock
 - Battery % 
-- Disable spotlight hotkey
+- ~~Disable spotlight hotkey~~ provided by mackup
