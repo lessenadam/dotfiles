@@ -26,3 +26,4 @@ This includes setting the dark setting https://github.com/mauricecruz/chrome-dev
 - Caps lock
 - Battery % 
 - ~~Disable spotlight hotkey~~ provided by mackup
+- Something funky going on with clone.sh and the zsh-syntax-highlighting on install?
