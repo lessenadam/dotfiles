@@ -20,3 +20,10 @@ https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 This includes setting the dark setting https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme
 
 **Set up git locally using the personal token**
+
+**Manual mac setup**
+- Screen Resolution
+- Caps lock
+- Battery % 
+- ~~Disable spotlight hotkey~~ provided by mackup
+- Something funky going on with clone.sh and the zsh-syntax-highlighting on install?
