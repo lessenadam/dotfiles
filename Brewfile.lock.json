@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "cbb7d2a03834ec7380c7d74b5917a0d545cc6d91"
+        "revision": "f15325a4eb7f906153720473eee9349f195bf840"
       },
       "homebrew/cask-eid": {
         "revision": "4d4470de1ce7f5a2f14bc95f0a9c223d6d8df472"
       },
       "homebrew/cask-fonts": {
-        "revision": "58e0c533a980f44042020989ed0bf899eecede7a"
+        "revision": "25257f5ba6a4e3de92b4be319478ea56516953f9"
       },
       "homebrew/cask-versions": {
-        "revision": "bdee39314ec35833a951f1317490832e1a511703"
+        "revision": "0942e612866f4fcfdbf0aeb02ab28c516625f686"
       },
       "homebrew/bundle": {
         "revision": "c3162a3b89a066cf37ad165f5a155da18e70d9f8"
@@ -404,6 +404,31 @@
             }
           }
         }
+      },
+      "jq": {
+        "version": "1.6",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/jq-1.6.catalina.bottle.1.tar.gz",
+              "sha256": "820a3c85fcbb63088b160c7edf125d7e55fc2c5c1d51569304499c9cc4b89ce8"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/jq-1.6.mojave.bottle.1.tar.gz",
+              "sha256": "71f0e76c5b22e5088426c971d5e795fe67abee7af6c2c4ae0cf4c0eb98ed21ff"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/jq-1.6.high_sierra.bottle.1.tar.gz",
+              "sha256": "dffcffa4ea13e8f0f2b45c5121e529077e135ae9a47254c32182231662ee9b72"
+            },
+            "sierra": {
+              "url": "https://homebrew.bintray.com/bottles/jq-1.6.sierra.bottle.1.tar.gz",
+              "sha256": "bb4d19dc026c2d72c53eed78eaa0ab982e9fcad2cd2acc6d13e7a12ff658e877"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -462,7 +487,7 @@
         }
       },
       "java": {
-        "version": "14.0.1,7:664493ef4a6946b186ff29eb326336a2",
+        "version": "14.0.2,12:205943a0976c4ed48cb16f1043c5c647",
         "options": {
           "full_name": "java"
         }
@@ -631,7 +656,7 @@
       },
       "Numbers": {
         "id": "409203825",
-        "version": "10.0"
+        "version": "10.1"
       }
     }
   },
@@ -640,7 +665,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.4.8",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "a6e98c3afe39ca1bddbfdbda3f056e080082ff92",
+        "Homebrew/homebrew-core": "adaf9391fe90d7385209ca89a6a039cf5bf086a1",
         "CLT": "11.5.0.0.1.1588476445",
         "Xcode": "11.6",
         "macOS": "10.15.5"

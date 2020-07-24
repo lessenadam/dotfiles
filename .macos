@@ -18,10 +18,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "adam-macbook-1"
-sudo scutil --set HostName "adam-macbook-1"
-sudo scutil --set LocalHostName "adam-macbook-1"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "adam-macbook-1"
+sudo scutil --set ComputerName "Adam's MacBook"
+sudo scutil --set HostName "Adam's MacBook"
+sudo scutil --set LocalHostName "Adam's MacBook"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Adam's MacBook"
 
 # Disable the sound effects on boot
 # sudo nvram SystemAudioVolume=" "
@@ -161,7 +161,7 @@ defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 # Set trackpad speed to slighter faster than highest `fast`
-defaults write -g com.apple.trackpad.scaling 4
+defaults write -g com.apple.trackpad.scaling 5
 
 
 # Set language and text formats
@@ -461,9 +461,9 @@ defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-
 # Top right screen corner → Desktop
 # defaults write com.apple.dock wvous-tr-corner -int 10
 # defaults write com.apple.dock wvous-tr-modifier -int 0
-# Bottom left screen corner → Start screen saver
-# defaults write com.apple.dock wvous-bl-corner -int 5
-# defaults write com.apple.dock wvous-bl-modifier -int 0
+# Bottom right screen corner → Start screen saver
+defaults write com.apple.dock wvous-br-corner -int 5
+defaults write com.apple.dock wvous-br-modifier -int 0
 
 ###############################################################################
 # Safari & WebKit                                                             #
